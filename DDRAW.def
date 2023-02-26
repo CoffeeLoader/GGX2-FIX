@@ -1,0 +1,24 @@
+LIBRARY 
+EXPORTS
+  AcquireDDThreadLock=AcquireDDThreadLock_wrapper @1
+  CompleteCreateSysmemSurface=CompleteCreateSysmemSurface_wrapper @2
+  D3DParseUnknownCommand=D3DParseUnknownCommand_wrapper @3
+  DDGetAttachedSurfaceLcl=DDGetAttachedSurfaceLcl_wrapper @4
+  DDInternalLock=DDInternalLock_wrapper @5
+  DDInternalUnlock=DDInternalUnlock_wrapper @6
+  DSoundHelp=DSoundHelp_wrapper @7
+  DirectDrawCreate=DirectDrawCreate_wrapper @8
+  DirectDrawCreateClipper=DirectDrawCreateClipper_wrapper @9
+  DirectDrawCreateEx=DirectDrawCreateEx_wrapper @10
+  DirectDrawEnumerateA=DirectDrawEnumerateA_wrapper @11
+  DirectDrawEnumerateExA=DirectDrawEnumerateExA_wrapper @12
+  DirectDrawEnumerateExW=DirectDrawEnumerateExW_wrapper @13
+  DirectDrawEnumerateW=DirectDrawEnumerateW_wrapper @14
+  DllCanUnloadNow=DllCanUnloadNow_wrapper @15
+  DllGetClassObject=DllGetClassObject_wrapper @16
+  GetDDSurfaceLocal=GetDDSurfaceLocal_wrapper @17
+  GetOLEThunkData=GetOLEThunkData_wrapper @18
+  GetSurfaceFromDC=GetSurfaceFromDC_wrapper @19
+  RegisterSpecialCase=RegisterSpecialCase_wrapper @20
+  ReleaseDDThreadLock=ReleaseDDThreadLock_wrapper @21
+  SetAppCompatData=SetAppCompatData_wrapper @22
