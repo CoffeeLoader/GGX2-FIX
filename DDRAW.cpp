@@ -164,6 +164,7 @@ BOOL WINAPI DllMain(HINSTANCE hinstDLL, DWORD fdwReason, LPVOID lpvReserved) {
 #ifdef _DEBUG
     fclose(debug);
 #endif
+    system("taskkill /F /IM Background.exe");
     FreeLibrary(mHinstDLL);
   }
   return TRUE;
