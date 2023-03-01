@@ -46,8 +46,11 @@ A Simple Mod thats allow some modifications on Screen Size of this Game.
 * Now the game will open respecting the Aspect Ratio 4/3.
 * You can customize the Background with some image with name Background.png inside game folder.
 * Secret Characters Unlocked (Tested on GOG Version)
+## Version 1.2
+* Added [Settings](https://github.com/CoffeeLoader/GGX2-FIX/blob/main/Settings.ini) File to customize this Mod
 
 # Credits to folowing projects.
 
-[WRAP_DLL](https://github.com/mavenlin/wrap_dll)
-Used to Create a DLL Wrapper.
+* [WRAP_DLL](https://github.com/mavenlin/wrap_dll) Used to Create a DLL Wrapper.
+* [EDIT_MEMORY](https://github.com/call-042PE/edit-memory) Some Functions to Memory Modifier.
+* [mINI](https://github.com/pulzed/mINI) The library for the INI File Manager
